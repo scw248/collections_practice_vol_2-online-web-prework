@@ -45,15 +45,15 @@ end
 
 
 def merge_data(keys, data)
-  final_hash = {}
+  final_array = []
   
   data.each do |array|
     array.each do |name, hash|
         hash[:first_name] = name
-        final_hash = [hash]
+        final_array << hash
     end
 end
-final_hash 
+final_array
 end
 
 
