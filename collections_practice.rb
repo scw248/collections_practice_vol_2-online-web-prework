@@ -49,7 +49,8 @@ def merge_data(keys, data)
   key_val_pair1 = 
   key_val_pair1 =
   
-  keys.each do ||
+  keys.each do |array|
+    array.each do ||
   
   data.each do |array|
     array.each do |name, hash|
