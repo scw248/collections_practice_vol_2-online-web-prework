@@ -55,6 +55,7 @@ def merge_data(keys, data)
         final_array << hash
     end
 end
+end
 final_array
 end
 
