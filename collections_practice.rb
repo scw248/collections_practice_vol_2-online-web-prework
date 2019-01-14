@@ -48,7 +48,7 @@ def merge_data(keys, data)
   final_array = []
   
   keys.each do |key, val|
-  
+  binding.pry
   data.each do |array|
     array.each do |name, hash|
         hash[key] = val
