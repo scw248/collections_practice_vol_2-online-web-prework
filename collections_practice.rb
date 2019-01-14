@@ -46,6 +46,10 @@ end
 
 def merge_data(keys, data)
   final_array = []
+  key_val_pair1 = 
+  key_val_pair1 =
+  
+  keys.each do ||
   
   data.each do |array|
     array.each do |name, hash|
