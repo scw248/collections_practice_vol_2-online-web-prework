@@ -51,8 +51,8 @@ def merge_data(keys, data)
   
   data.each do |array|
     array.each do |name, hash|
-          binding.pry
-        hash[key] = val
+        if key[:first_name] == name
+        hash[:first_name] = name
         final_array << hash
     end
 end
