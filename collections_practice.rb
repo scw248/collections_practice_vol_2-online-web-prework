@@ -45,30 +45,7 @@ end
 
 
 def merge_data(keys, data)
-  blake_val = nil
-  ashley_val = nil
-  final_hash = {}
-  
-  keys.each do |array|
-    array.each do |key, val|
-    
-      if val == "blake"
-        blake_val = val
-      if val == "ashley"
-        ashley_val = val
-      end
-  end
-end
-end
-  
-  data.each do |array|
-    array.each do |name, hash|
-        hash[:first_name] = name
-        final_hash = [hash]
-    end
-end
-final_hash 
-end
+
 
 
 def find_cool(hash)
