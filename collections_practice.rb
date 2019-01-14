@@ -45,8 +45,7 @@ end
 
 
 def merge_data(keys, data)
-  blake_val = nil
-  ashley_val = nil
+ 
   final_hash = {}
   
   keys.each do |array|
