@@ -51,7 +51,6 @@ def merge_data(keys, data)
   
   data.each do |array|
     array.each do |name, hash|
-        #if key.include?(name)
           binding.pry
         hash[key] = val
         final_array << hash
