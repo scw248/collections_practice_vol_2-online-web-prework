@@ -49,12 +49,11 @@ def merge_data(keys, data)
   key_val_pair1 = 
   key_val_pair1 =
   
-  keys.each do |array|
-    array.each do ||
+  keys.each do |key, val|
   
   data.each do |array|
     array.each do |name, hash|
-        hash[:first_name] = name
+        hash[key] = val
         final_array << hash
     end
 end
