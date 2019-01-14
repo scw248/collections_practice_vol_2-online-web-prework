@@ -47,18 +47,6 @@ end
 def merge_data(keys, data)
   final_hash = {}
   
-  keys.each do |array|
-    array.each do |key, val|
-    
-      if val == "blake"
-        blake_val = val
-      if val == "ashley"
-        ashley_val = val
-      end
-  end
-end
-end
-  
   data.each do |array|
     array.each do |name, hash|
         hash[:first_name] = name
